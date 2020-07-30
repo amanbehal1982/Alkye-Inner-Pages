@@ -1,0 +1,399 @@
+.main-page-banner {
+    background: #000;
+    padding: 60px 0 110px;
+}
+
+.main-page-banner h1 {
+    font-family: 'Helvetica Now Text';
+    font-weight: 800;
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: -2px;
+    line-height: 70px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.main-page-banner h1:after {
+    content: '';
+    background: url(../images/top-back-img.jpg) no-repeat right top;
+    width: 69px;
+    height: 102px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 0;
+}
+
+.main-page-banner p {
+    font-family: 'Chronicle Display';
+    font-weight: normal;
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    width: 60%;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 11;
+}
+
+.work-content-wrapper {
+    margin-bottom: 120px;
+}
+
+.slider-outer-wrapper {
+    margin-top: 90px;
+}
+
+.slider-outer-wrapper .reverse-direction {
+    flex-direction: row-reverse;
+}
+
+.project-info-detail {
+    background: #000;
+    border: 1px solid #979797;
+    position: relative;
+    z-index: 100;
+    padding: 80px 50px 80px 100px;
+}
+
+.reverse-direction .project-info-detail {
+    padding: 80px 100px 80px 50px;
+}
+
+.project-image-slider-wrapper {}
+
+.project-image-detail {
+    position: absolute;
+    left: 0;
+    z-index: 110;
+    width: 550px;
+    margin-top: 50px;
+}
+
+.reverse-direction .project-image-detail {
+    left: auto;
+    right: 0;
+}
+
+.project-image-container .slide-content img {
+    width: 100%;
+}
+
+ul.content-list-detail {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.content-list-detail li {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+ul.content-list-detail li:first-child {
+    padding-top: 0;
+}
+
+ul.content-list-detail li .left-detail-heading {
+    text-align: left;
+    width: 100%;
+    max-width: 50%;
+    padding-right: 30px;
+    font-family: 'Helvetica Now Text';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.71px;
+    color: #fff;
+}
+
+ul.content-list-detail li .right-content-text {
+    max-width: 50%;
+    width: 100%;
+    text-align: left;
+    font-family: 'Helvetica Now Text';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.71px;
+    color: #fff;
+}
+
+ul.content-list-detail li a {
+    color: #fff;
+}
+
+.slick-nav {
+    float: left;
+}
+
+.reverse-direction .slick-nav {
+    float: right;
+}
+
+.slick-nav .slick-arrow {
+    background: transparent;
+    border: 2px solid #000;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 8px 14px;
+    margin: 0 0 0 15px;
+    cursor: pointer;
+}
+
+.reverse-direction .slick-nav .slick-arrow {
+    margin: 0 15px 0 0;
+}
+
+.slick-nav .slick-arrow .fa {
+    font-size: 20px;
+}
+
+.slick-dots-box {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.reverse-direction .slick-dots-box {
+    margin-left: 0;
+    margin-right: 30px;
+    float: right;
+}
+
+ul.slick-dots {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+ul.slick-dots li+li {
+    margin-left: 10px;
+}
+
+ul.slick-dots li.slick-active button {
+    background: #000;
+}
+
+ul.slick-dots li button {
+    background: #cacaca;
+    border: 0 none;
+    height: 4px;
+    width: 20px;
+    font-size: 0;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 1199.98px) {
+    .main-page-banner h1 {
+        font-size: 65px;
+        line-height: 1;
+        letter-spacing: normal;
+    }
+    .main-page-banner p {
+        width: 70%;
+    }
+    .project-image-detail {
+        width: 400px;
+        margin-top: 30px;
+    }
+    .project-info-detail {
+        padding: 50px 50px 50px 100px;
+    }
+    .reverse-direction .project-info-detail {
+        padding: 50px 100px 50px 50px;
+    }
+    ul.content-list-detail li .left-detail-heading {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    ul.content-list-detail li .right-content-text {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    ul.content-list-detail li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .slick-dots-box {
+        margin-left: 15px;
+    }
+    .reverse-direction .slick-dots-box {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main-page-banner h1 {
+        font-size: 55px;
+    }
+    .main-page-banner p {
+        width: 100%;
+        font-size: 25px;
+    }
+    ul.content-list-detail li .left-detail-heading {
+        font-size: 16px;
+    }
+    ul.content-list-detail li .right-content-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main-page-banner h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .main-page-banner h1:after {
+        top: 0;
+    }
+    .main-page-banner p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .main-page-banner {
+        padding: 60px 0;
+    }
+    .work-content-wrapper {
+        margin-bottom: 90px;
+    }
+    .slider-outer-wrapper .reverse-direction {
+        flex-direction: column;
+    }
+    .slider-outer-wrapper {
+        margin-top: 60px;
+    }
+    .project-image-detail,
+    .reverse-direction .project-image-detail {
+        position: relative;
+        left: auto;
+        right: auto;
+        margin-top: 0;
+        width: 100%;
+        max-width: 600px;
+        display: inline-block;
+    }
+    .project-image-slider-wrapper {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .slider-outer-wrapper>.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .work-content-wrapper .container {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .work-content-wrapper .container .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .work-content-wrapper .container .row .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .work-content-wrapper .container .row .col-12.project-image-slider-wrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .project-info-detail,
+    .reverse-direction .project-info-detail {
+        padding: 50px;
+    }
+    .slick-nav {
+        width: 100%;
+    }
+    .slick-nav .slick-arrow.prev {
+        float: left;
+    }
+    .slick-nav .slick-arrow.prev2 {
+        float: left;
+        margin-left: 15px;
+        margin-right: 0;
+    }
+    .slick-nav .slick-arrow.next {
+        float: right;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    .slick-nav .slick-arrow.next2 {
+        float: right;
+        margin-right: 15px;
+    }
+    .slick-dots-box,
+    .reverse-direction .slick-dots-box {
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 15px;
+    }
+    ul.slick-dots {
+        justify-content: center;
+    }
+    .slick-nav .slick-arrow .fa {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .main-page-banner h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .main-page-banner p {
+        font-size: 14px;
+    }
+    .work-content-wrapper {
+        margin-bottom: 60px;
+    }
+    .project-info-detail,
+    .reverse-direction .project-info-detail {
+        padding: 50px 40px;
+    }
+    ul.content-list-detail li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    ul.content-list-detail li .left-detail-heading {
+        font-size: 14px;
+    }
+    ul.content-list-detail li .left-detail-heading {
+        max-width: 50%;
+        max-width: 125px;
+    }
+    ul.content-list-detail li .right-content-text {
+        max-width: 50%;
+        max-width: calc(100% - 125px);
+    }
+    .slick-nav .slick-arrow {
+        padding: 5px 11px;
+    }
+}
+
+@media (max-width: 320.98px) {
+    ul.content-list-detail li .left-detail-heading,
+    ul.content-list-detail li .right-content-text {
+        font-size: 12px;
+    }
+    ul.content-list-detail li .left-detail-heading {
+        max-width: 100px;
+        padding-right: 20px;
+    }
+    ul.content-list-detail li .right-content-text {
+        max-width: calc(100% - 100px);
+    }
+}
