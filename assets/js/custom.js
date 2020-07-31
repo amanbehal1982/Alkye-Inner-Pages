@@ -162,3 +162,84 @@ $(function() {
         asNavFor: '.project-content-slider9'
     });
 });
+
+var myVideo = document.getElementById("testimonial-video");
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+}
+
+var myVideo1 = document.getElementById("testimonial-video1");
+
+function playPause1() {
+    if (myVideo1.paused)
+        myVideo1.play();
+    else
+        myVideo1.pause();
+}
+
+var myVideo2 = document.getElementById("testimonial-video2");
+
+function playPause2() {
+    if (myVideo2.paused)
+        myVideo2.play();
+    else
+        myVideo2.pause();
+}
+
+var blogvideo01 = document.getElementById("blog-video01");
+
+function blogplayPause01() {
+    if (blogvideo01.paused)
+        blogvideo01.play();
+    else
+        blogvideo01.pause();
+}
+
+var blogvideo02 = document.getElementById("blog-video02");
+
+function blogplayPause02() {
+    if (blogvideo02.paused)
+        blogvideo02.play();
+    else
+        blogvideo02.pause();
+}
+
+var blogvideo03 = document.getElementById("blog-video03");
+
+function blogplayPause03() {
+    if (blogvideo03.paused)
+        blogvideo03.play();
+    else
+        blogvideo03.pause();
+}
+
+var blogvideo04 = document.getElementById("blog-video04");
+
+function blogplayPause04() {
+    if (blogvideo04.paused)
+        blogvideo04.play();
+    else
+        blogvideo04.pause();
+}
+
+var blogvideo05 = document.getElementById("blog-video05");
+
+function blogplayPause05() {
+    if (blogvideo05.paused)
+        blogvideo05.play();
+    else
+        blogvideo05.pause();
+}
+
+var blogvideo06 = document.getElementById("blog-video06");
+
+function blogplayPause06() {
+    if (blogvideo06.paused)
+        blogvideo06.play();
+    else
+        blogvideo06.pause();
+}
